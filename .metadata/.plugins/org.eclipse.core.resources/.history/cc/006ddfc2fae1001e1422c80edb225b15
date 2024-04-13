@@ -1,0 +1,11 @@
+package com.venom.springex;
+
+public class JavaCourseService implements CourseService{
+
+	@Override
+	public void CourceInfo() {
+		
+		
+	}
+
+}

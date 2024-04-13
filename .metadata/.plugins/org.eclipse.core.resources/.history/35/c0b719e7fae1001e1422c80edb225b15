@@ -1,0 +1,21 @@
+package com.venom.springex;
+
+public class Student {
+	private Emailservice emailservice;
+	public Emailservice getEmailservice() {
+		return emailservice;
+	}
+	public void setEmailservice(Emailservice emailservice) {
+		this.emailservice = emailservice;
+	}
+	public JavaCourseService getJavacourseService() {
+		return javacourseService;
+	}
+	public void setJavacourseService(JavaCourseService javacourseService) {
+		this.javacourseService = javacourseService;
+	}
+	private JavaCourseService javacourseService;
+
+
+
+}

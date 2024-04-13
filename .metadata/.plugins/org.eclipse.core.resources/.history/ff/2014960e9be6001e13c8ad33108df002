@@ -1,0 +1,8 @@
+package com.venom.springex;
+@D
+public class student {
+	private int stuid;
+	private String stuNmae;
+	
+
+}

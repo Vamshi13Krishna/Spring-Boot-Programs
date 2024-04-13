@@ -1,0 +1,22 @@
+package com.venom.springex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+@Component
+public class Student {
+	private Emailservice emailservice;
+	private JavaCourseService javacourseService;
+	@Autowired
+	public Student(Emailservice emailservice, JavaCourseService javacourseService) {
+		super();
+		this.emailservice = emailservice;
+		this.javacourseService = javacourseService;
+	}
+
+	public void details() {
+		emailservice.message();
+		javacourseService.CourceInfo();
+	
+
+	}
+}

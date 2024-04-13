@@ -1,0 +1,16 @@
+package com.venom.springex;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context = new AnnotationConfigApplicationContext();
+        System.out.println("vk");
+        GreetingImp1 greeting = context.getBean("greets",JavaConfig.class);
+        //call the meathod
+        greeting.greets();
+    }
+}

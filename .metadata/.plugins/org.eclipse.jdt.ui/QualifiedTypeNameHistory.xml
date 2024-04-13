@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.venom.springex.GreetingImp1"/>
+    <fullyQualifiedTypeName name="com.venom.springex.JavaConfig"/>
+    <fullyQualifiedTypeName name="com.venom.springex.SpringJavaBaseConfigEx2.person"/>
+    <fullyQualifiedTypeName name="com.venom.springex.MessageService"/>
+    <fullyQualifiedTypeName name="com.venom.springex.CourseService"/>
+    <fullyQualifiedTypeName name="com.venom.springex.Emailservice"/>
+    <fullyQualifiedTypeName name="com.venom.springex.JavaCourseService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.venom.springex.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+</qualifiedTypeNameHistroy>
